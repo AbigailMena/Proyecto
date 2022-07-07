@@ -1,0 +1,150 @@
+header {
+  grid-area: header;
+  justify-content: space-between;
+}
+
+nav {
+  grid-area: nav;
+  justify-content: center;
+}
+
+section {
+  grid-area: section;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+  justify-content: center;
+}
+
+header, footer, nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contenedor-total {
+  display: grid;
+}
+
+/*@media screen and (min-width: 320px) {}
+
+@media screen and (min-width: 480px) {}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 1200px) { */
+/*.carousel-inner{
+       text-align: center;
+   }
+
+
+    .contenedor-footer {
+       margin-bottom: 5%;
+       text-align: right;
+   }
+
+   .info-footer h4{
+   border: none;
+   }
+
+   .productos{
+       width: 100%;
+   }
+
+   .productos-img{
+       text-align: center;
+   width: 200px;
+   height: 200px;
+   display: block;
+   border-radius: 50%;
+   }
+
+   .productos2{
+       width: 100%;
+   }
+
+   .productos-img2{
+       float: right;
+   width: 200px;
+   height: 200px;
+   display: block;
+   border-radius: 50%;
+   }
+
+   .productos3{
+       width: 100%;
+   }
+
+   .productos-img3{
+       float: right;
+   width: 200px;
+   height: 200px;
+   display: block;
+   border-radius: 50%;
+   }
+
+   .productos4{
+       width: 100%;
+   }
+
+   .productos-img4{
+       float: right;
+   width: 200px;
+   height: 200px;
+   display: block;
+   border-radius: 50%;
+   }
+
+   .productos5{
+       width: 100%;
+   }
+
+   .productos-img5{
+       float: right;
+   width: 200px;
+   height: 200px;
+   display: block;
+   border-radius: 50%;
+   } 
+
+   .espacio{
+       clear: both;
+   }
+
+   /*electrodomesticos */
+.galeria {
+  margin-bottom: 10px 20px;
+  box-shadow: 0 4px 8px lightslategray, 0 6px 20px 0 rgb(0, 0, 0);
+  float: left;
+  width: 100%;
+}
+
+.galeria img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.texto {
+  text-align: center;
+  text-shadow: 2px 2px 5px lightgrey;
+  padding: 10px;
+}
+
+.contenedor-total {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
